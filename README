@@ -1,0 +1,15 @@
+This is Ruby + Sinatra + Datamapper app that served by Unicorn server
+
+You need the following Ruby gems:
+Sinatra
+Datamapper
+Unicorn
+
+Then you can start the JSON server by running the command"
+    unicorn
+in current directory.
+
+"unicorn -D" will daemonize the unicorn server.
+
+This app needs connection to MySQL server holding the EOL species interaction data, connection parameters are set in boot/init.rb
+
