@@ -1,9 +1,12 @@
 This is Ruby + Sinatra + Datamapper app that served by Unicorn server
 
 You need the following Ruby gems:
-Sinatra
-Datamapper
-Unicorn
+sinatra
+datamapper
+dm-mysql-adapter
+unicorn
+json_pure
+rest-client
 
 Then you can start the JSON server by running the command"
     unicorn
